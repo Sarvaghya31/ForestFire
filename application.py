@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 #from sklearn.preprocessing import StandardScaler
 
-application = Flask(__name__)  #renamed to application from app
+application = Flask(__name__)  #renamed to application from app for the deployment part of elastic beanstalk
 app=application
 
 ## import ridge regresor model and standard scaler pickle
